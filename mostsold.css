@@ -1,0 +1,136 @@
+/*background and navbar*/
+body
+{ margin: 0px;
+  padding: 0px;
+background-color: #2b2b2b
+}
+
+
+.loading-image {
+     display:block;
+     margin: 0 auto;
+     width: 500px;
+     height: 200px;
+     position: absolute;
+     top: 30px;
+     left: 700px;
+
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+li {
+    float: left;
+
+  }
+  li a:hover {
+    color: #ffffff;
+    font-family: impact;
+    background: linear-gradient(270deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+  }
+
+.active{ font-family:impact;
+}
+.nintender{
+  font-family: impact;
+}
+.roundright{
+    font-family: impact;
+}
+
+div  {
+   width: 700px; background-color: white;
+   padding: 2%;
+   border: 3px solid black;
+   border-radius: 5px;
+
+}
+.mostsoldtxt {
+  color: black;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 20px;
+}
+.nintendods {
+  padding-left: 550px;
+}
+.wii {
+  width: 125.5px;
+  height: 122px;
+  padding-left: 590px;
+}
+
+.wiisport{
+  width: 158px;
+  height: 172px;
+  padding-left: 550px;
+}
+
+.GameBoy {
+  height: 167.5px;
+  width: 100px;
+  padding-left: 600px;
+}
+
+.nintedon3ds {
+  width: 155.5px;
+  height: 150px;
+  padding-left: 550px;
+}
+
+.nintendoentertainmentsystem {
+  width: 175px;
+  height: 114.625px;
+  padding-left: 530px;
+}
+
+.supernintendoentertainmentsystem {
+  width: 155px;
+  height: 130.6666666666667px;
+  padding-left: 550px;
+}
+
+.NewSuperMarioBros {
+  width: 146px;
+  height: 123.3333333333333px;
+  padding-left: 550px;
+}
+
+.wiisportresort {
+  width: 135px;
+  height: 135px;
+  padding-left: 550px;
+}
+
+.Nintemdo {
+  width: 178.0454545454545px;
+  height: 95.81818181818182px;
+  padding-left: 550px;
+}
+
+
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+}
+/body

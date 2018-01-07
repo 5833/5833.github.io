@@ -1,0 +1,196 @@
+/*background and navbar*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body
+{ margin: 0px;
+  padding: 0px;
+  background-color: #2b2b2b;
+
+}
+
+
+.loading-image {
+     display:block;
+     margin: 0 auto;
+     width: 500px;
+     height: 123.25px;
+     position: absolute;
+     top: 70px;
+     left: 700px;
+
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+li {
+    float: left;
+
+  }
+  li a:hover {
+    color: #ffffff;
+    font-family: impact;
+    background: linear-gradient(270deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+  }
+
+.active{ font-family:impact;
+}
+.nintender{
+  font-family: impact;
+}
+.roundright{
+    font-family: impact;
+
+}
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+}
+/body
+/*table*/
+table {
+    font-family: impact, impact;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+      border: 1px solid #757575;
+    text-align: left;
+    padding: 8px;
+
+}
+th:not(td) {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+tr:nth-child(even) {
+      background-color: white;
+
+
+}
+article {
+
+}
+table {
+  padding-top: 0px;
+}
+.GameWatch {
+  width: 150px;
+  height: 100.5px;
+  padding-left: 80px;
+
+}
+.GameBoy {
+  width: 125px;
+  height: 220px;
+  padding-left: 100px;
+}
+.virtualboy {
+  width: 225px;
+  height: 203.5px;
+  padding-left: 50px;
+}
+.Gameboypocket {
+  width: 185px;
+  height: 300px;
+  padding-left: 70px;
+}
+.NintendoGameBoy {
+
+}
+.pokemonpikachu {
+ padding-left: 20px;
+}
+.Gameboycolor {
+ padding-left: 50px;
+}
+.PokémonPikachu2 {
+ padding-left: 20px;
+}
+.nintendogamboyadvance {
+
+}
+.PokémonminiGreen {
+ padding-left: 50px;
+}
+.GameBoyAdvanceSP {
+  padding-left: 80px;
+}
+.nintendods {
+  padding-left: 50px;
+}
+.GameBoyMicro {
+  padding-left: 5px;
+}
+.Nintendodslite {
+  padding-left: 60px;
+}
+.Nintendodsi {
+  padding-left: 20px;
+}
+.NintendoDSiXL {
+  width: 216.5px;
+  height: 214px;
+  padding-left: 70px;
+}
+.Nintendo3DS {
+  width: 311px;
+  height: 300px;
+  padding-left: 30px;
+}
+.Nintendo3DSXL {
+  width: 194px;
+  height: 180px;
+  padding-left: 80px;
+
+}
+.Nintendo2DS {
+  width: 289px;
+  height: 240px;
+  padding-left: 40px;
+}
+.NewNintendo3DSXL {
+  width: 250px;
+  height: 250px;
+  padding-left: 40px;
+}
+.newnintendo2ds {
+  width: 253.5px;
+  height: 259px;
+  padding-left: 40px;
+}
+/*responsive*/
+{
+  border-left: black;
+  border-width: 200px;
+}
+.leftborder {
+  width: 30px;
+  length: 100%;
+  background-color: #757575;
+}
+
+.table   {
+  padding: 2%;
+
+
+
+}

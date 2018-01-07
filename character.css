@@ -1,0 +1,154 @@
+/*background and navbar*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body
+{ margin: 0px;
+  padding: 0px;
+background-color: #2b2b2b;
+}
+
+
+.loading-image {
+     display:block;
+     margin: 0 auto;
+     width: 500px;
+     height: 200px;
+     position: absolute;
+     top: 30px;
+     left: 700px;
+
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+li {
+    float: left;
+
+  }
+  li a:hover {
+    color: #ffffff;
+    font-family: impact;
+    background: linear-gradient(270deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+  }
+
+.active{ font-family:impact;
+}
+.nintender{
+  font-family: impact;
+}
+.roundright{
+    font-family: impact;
+}
+/*table*/
+table {
+    font-family: impact, impact;
+    border-collapse: collapse;
+    width: 0%;
+}
+
+
+
+td, th {
+      border: 1px solid #757575;
+    text-align: left;
+    padding: 8px;
+
+}
+th:not(td) {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+
+
+}
+table {
+  padding-top: 200px;
+}
+{
+  border-left: black;
+  border-width: 200px;
+}
+.leftborder {
+  width: 30px;
+  length: 100%;
+  background-color: #757575;
+}
+
+.table   {
+  padding: 2%;
+}
+
+.CaptainN {
+  width: 111px;
+  height:252.5px;
+}
+
+.Ridley {
+  width: 198.5px;
+  height: 152.5px;
+}
+
+.Banjokazooie{
+  width: 135px;
+  height: 209px;
+}
+
+.Ness {
+  width: 190px;
+  height: 190px;
+}
+
+.Kirby {
+  width: 125px;
+  height: 117.5px;
+}
+
+.Samus {
+  width: 125px;
+  height: 159.5px;
+}
+
+.Pikachu {
+  width: 187px;
+  height: 166.5px;
+}
+
+.DonkeyKong {
+  width: 135px;
+  height: 175px;
+}
+
+.Link {
+  width: 119px;
+  height: 217.5px;
+}
+
+.Mario {
+  width: 99.75px;
+  height: 149.75px;
+}
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+}
+/body

@@ -1,0 +1,158 @@
+/*background and navbar*/
+body
+{ margin: 0px;
+  padding: 0px;
+background-color: #2b2b2b;
+}
+
+
+.loading-image {
+     display:block;
+     margin: 0 auto;
+     width: 500px;
+     height: 200px;
+     position: absolute;
+     top: 30px;
+     left: 700px;
+
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+li {
+    float: left;
+
+  }
+  li a:hover {
+    color: #ffffff;
+    font-family: impact;
+    background: linear-gradient(270deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+  }
+
+.active{ font-family:impact;
+}
+.nintender{
+  font-family: impact;
+}
+.roundright{
+    font-family: impact;
+}
+/*table*/
+table {
+    font-family: impact, impact;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+td, th {
+      border: 1px solid #757575;
+    text-align: left;
+    padding: 8px;
+
+}
+th:not(td) {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+
+
+}
+table {
+  padding-top: 200px;
+}
+.table   {
+  padding: 2%;
+}
+
+.pokemonrubysapphireemerald {
+  width: 276.4375px;
+  height: 92.1875px;
+}
+
+.LeafgreenFirered {
+  width: 235px;
+  height: 117.5px;
+}
+.DPP {
+  width: 200px;
+  height: 166.6666666666667px;
+}
+
+.pokemonheartsoulsilver {
+  width: 294px;
+  height: 165.5px;
+}
+
+.PokemonBlackWhite2 {
+  width: 265px;
+  height: 149.5px;
+}
+
+.DonkeyKongflier {
+  width: 195.5px;
+  height: 127px;
+}
+.supermariobrothers3 {
+  width: 219px;
+  height: 185px;
+}
+
+.MArioMAker {
+
+  width: 185px;
+  height: 105px;
+}
+
+.MarioKartWii {
+  width: 135px;
+  height: 144.5px;
+}
+
+.NewSuperMarioBros {
+  width: 219px;
+  height: 185px;
+}
+
+.Smashbrawl {
+  width: 295px;
+  height: 185px;
+}
+
+.DonkeyKongCountryReturns {
+  width: 250px;
+  height: 125px;
+}
+
+.wiispi{
+  width: 158px;
+  height: 172px;
+}
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+}
+
+/body

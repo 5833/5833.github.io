@@ -1,0 +1,157 @@
+/*background and navbar*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body
+{ margin: 0px;
+  padding: 0px;
+
+background-color: #2b2b2b;
+}
+
+
+.loading-image {
+     display:block;
+     margin: 0 auto;
+     width: 500px;
+     height: 123.25px;
+     position: absolute;
+     top: 70px;
+     left: 700px;
+
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+
+}
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+li {
+    float: left;
+
+  }
+  li a:hover {
+    color: #ffffff;
+    font-family: impact;
+    background: linear-gradient(270deg, rgba(237,27,48,1) 0%, rgba(0,128,128,1) 100%);
+  }
+
+.active{ font-family:impact;
+}
+.nintender{
+  font-family: impact;
+}
+.roundright{
+    font-family: impact;
+}
+/body
+/*table*/
+table {
+    font-family: impact, impact;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+td, th {
+      border: 1px solid #757575;
+    text-align: left;
+    padding: 8px;
+
+}
+th:not(td) {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+
+
+}
+table {
+  padding-top: 0px;
+}
+.nintendocolor {
+  width: 247.5px;
+  height: 123.75px;
+  padding-left: 30px;
+}
+.nintendosystem {
+  width: 175px;
+  height: 144.625px;
+  padding-left: 50px;
+}
+.supernin {
+  width: 232.5px;
+  height: 196px;
+  padding-left: 40px;
+}
+.nintendo64 {
+  width: 244.8125px;
+  height: 131.75px;
+  padding-left: 20px;
+}
+.GameCube {
+
+}
+.PanasonicQ {
+  width: 246.25px;
+  height: 147.75px;
+}
+.Wii {
+  width: 251px;
+  height: 244px;
+}
+.wiimini {
+  width: 283.5px;
+  height: 196.5px;
+}
+.WiiU {
+  width: 304px;
+  height: 169px;
+}
+.switch {
+  width: 238px;
+  height: 123px;
+
+}
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+}
+/*responsive*/
+{
+  border-left: black;
+  border-width: 200px;
+}
+.leftborder {
+  width: 30px;
+  length: 100%;
+  background-color: #757575;
+}
+
+.table   {
+  padding: 2%;
+
+
+
+}
+
+
+
+/body
